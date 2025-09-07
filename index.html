@@ -7,52 +7,97 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+  <!-- Hero Section -->
+  <header class="hero">
+    <img src="images/profile.jpg" alt="Mark Rumore" class="profile-pic">
     <h1>Mark Rumore</h1>
-    <p>Senior Machine Learning Engineer • Aspiring Manager in AI/ML</p>
+    <p class="tagline">ML Engineering Leader • AI Strategist • Team Builder</p>
     <nav>
       <a href="#about">About</a>
-      <a href="#experience">Experience</a>
+      <a href="#experience">Highlights</a>
       <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <section id="about">
+  <!-- About -->
+  <section id="about" class="section">
     <h2>About Me</h2>
-    <p>I am a Senior Machine Learning Engineer at Coca-Cola with 7+ years of experience leading ML teams and driving AI innovation. 
-       Skilled in MLOps, NLP, deep learning, and Azure cloud, I am passionate about building high-performing teams and applying AI to solve real business problems.</p>
-  </section>
-
-  <section id="experience">
-    <h2>Leadership & Experience</h2>
-    <ul>
-      <li>Managing a team of 3 ML engineers, delivering production-scale AI solutions.</li>
-      <li>Expertise in Python, Azure ML, NLP, and scalable ML architectures.</li>
-      <li>Two master’s degrees (Data Science, Computer Science); pursuing PhD.</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Highlighted Projects</h2>
-    <ul>
-      <li><b>Conversational AI (AT&T):</b> Led development of NLP models to enhance customer support automation.</li>
-      <li><b>Retail AI Forecasting:</b> Directed ML pipeline improving demand prediction accuracy by 15%.</li>
-      <li><b>MLOps Infrastructure:</b> Designed CI/CD for ML, reducing deployment time by 40%.</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
     <p>
-      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN">LinkedIn</a> | 
-      <a href="https://github.com/YOUR-USERNAME">GitHub</a> | 
-      <a href="mailto:youremail@email.com">Email Me</a>
+      I’m a Senior Machine Learning Engineer at Coca-Cola with 7+ years of experience driving 
+      enterprise-scale AI solutions and leading cross-functional teams. I specialize in MLOps, NLP, 
+      and cloud-native architectures, with a passion for building scalable systems and mentoring 
+      the next generation of ML engineers.
+    </p>
+  </section>
+
+  <!-- Experience Highlights -->
+  <section id="experience" class="section">
+    <h2>Leadership Highlights</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>🚀 Scaled AI at Coca-Cola</h3>
+        <p>Directed deployment of enterprise AI systems saving 30% labor hours, including the company’s largest production ML model.</p>
+      </div>
+      <div class="card">
+        <h3>👥 Team Leadership</h3>
+        <p>Managed and mentored 10+ engineers, building expertise in MLOps, explainable AI, and production deployments.</p>
+      </div>
+      <div class="card">
+        <h3>⚖️ Ethical AI Governance</h3>
+        <p>Chaired AI Governance Review Board, ensuring 100% compliance with fairness, bias mitigation, and transparency standards.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="section">
+    <h2>Highlighted Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="images/projects/forecasting.png" alt="Retail Forecasting">
+        <h3>Retail AI Forecasting</h3>
+        <p>Improved demand prediction accuracy by 15% using Azure ML + Databricks pipelines.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/projects/conversational-ai.png" alt="Conversational AI">
+        <h3>Conversational AI (AT&T)</h3>
+        <p>Led NLP system for chat/voice cobots, boosting agent efficiency and customer satisfaction.</p>
+      </div>
+      <div class="project-card">
+        <img src="images/projects/mlops.png" alt="MLOps Infrastructure">
+        <h3>MLOps Infrastructure</h3>
+        <p>Designed CI/CD for ML pipelines, cutting deployment time by 40% and improving reliability.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>Skills Snapshot</h2>
+    <ul class="skills-list">
+      <li><b>Programming:</b> Python, R, SQL, Java, C</li>
+      <li><b>Cloud & MLOps:</b> Azure ML, AWS, Databricks, Snowflake</li>
+      <li><b>Deployment:</b> Docker, Kubernetes, Jenkins, GitHub Actions</li>
+      <li><b>Visualization:</b> Power BI, Tableau, Sisense</li>
+      <li><b>Leadership:</b> Team Management, AI Governance, Agile/Scrum</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section contact">
+    <h2>Get in Touch</h2>
+    <p>
+      <a href="mailto:markrumore39@gmail.com" class="btn">📧 Email</a>
+      <a href="https://www.linkedin.com/in/mark-rumore" class="btn">LinkedIn</a>
+      <a href="https://github.com/markrumore" class="btn">GitHub</a>
+      <a href="resume.pdf" class="btn" download>📄 Resume</a>
     </p>
   </section>
 
   <footer>
-    <p>© 2025 Mark Rumore</p>
+    <p>© 2025 Mark Rumore | Built with ❤️ on GitHub Pages</p>
   </footer>
 </body>
 </html>
